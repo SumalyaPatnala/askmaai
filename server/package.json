@@ -1,0 +1,28 @@
+{
+  "name": "askmaai-server",
+  "version": "1.0.0",
+  "description": "Backend server for AskMAAI chat interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "wellness",
+    "ai",
+    "chatbot",
+    "fasting",
+    "judgeval"
+  ],
+  "author": "Sumalya Patnala",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "judgeval": "^0.2.10",
+    "ollama-node": "^0.1.28"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
